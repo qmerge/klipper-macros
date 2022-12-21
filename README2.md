@@ -88,6 +88,8 @@ pause_resume_cancel.cfg:[gcode_macro m600]
 pause_resume_cancel.cfg:[gcode_macro resume]
 filament.cfg:[gcode_macro load_filament]
 filament.cfg:[gcode_macro unload_filament]
+globals.cfg:[gcode_macro listvars]
+globals.cfg:[gcode_macro listvarnames]
 
 Macro's that Don't work
 
@@ -117,8 +119,7 @@ globals.cfg:[gcode_macro _km_globals]
 globals.cfg:[gcode_macro _check_globals]
 globals.cfg:[gcode_macro kmvars]
 globals.cfg:[gcode_macro check_macro_docs]
-globals.cfg:[gcode_macro listvars]
-globals.cfg:[gcode_macro listvarnames]
+
 heaters.cfg:[gcode_macro set_heater_temperature_scaled]
 heaters.cfg:[gcode_macro temperature_wait_scaled]
 heaters.cfg:[gcode_macro _gcode_wait_wrapper_inner]
